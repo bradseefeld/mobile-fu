@@ -2,6 +2,7 @@ module MobileFu
   module Rails
     module ControllerMethods
       module ClassMethods
+        
         ##
         # Add this to one of your controllers to use MobileFu.  
         #

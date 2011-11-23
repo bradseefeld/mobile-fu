@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = "Detect mobile browsers"
   s.description = "Automatically detect mobile requests from mobile devices in your Rails application."
 
-  #s.rubyforge_project = "mobile_fu"
+  s.rubyforge_project = "mobile_fu"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
