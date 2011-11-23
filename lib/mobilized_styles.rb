@@ -23,7 +23,6 @@ module MobilizedStyles
   
   # This logic was taken from Michael Bleigh's browserized styles
   # with modification to work for mobile browsers.
-  
   def user_agent_device_name
     @user_agent_device_name ||= begin
 
