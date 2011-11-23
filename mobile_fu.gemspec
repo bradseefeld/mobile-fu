@@ -5,13 +5,14 @@ require "mobile_fu/version"
 Gem::Specification.new do |s|
   s.name        = "mobile_fu"
   s.version     = MobileFu::VERSION
+  s.platform    = Gem::Platform::RUBY
   s.authors     = ["brendanlim"]
   s.email       = ["brendangl@gmail.com"]
-  s.homepage    = "https://github.com/brendanlim/mobile-fu"
+  s.homepage    = "https://github.com/bseefeld/mobile_fu"
   s.summary     = "Detect mobile browsers"
   s.description = "Automatically detect mobile requests from mobile devices in your Rails application."
 
-  s.rubyforge_project = "mobile_fu"
+  #s.rubyforge_project = "mobile_fu"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
