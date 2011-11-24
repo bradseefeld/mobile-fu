@@ -1,4 +1,4 @@
-require "mobile_fu/railtie" if defined? Rails
+require "mobile_fu/railtie"# if defined? Rails
 
 module MobileFu
     
